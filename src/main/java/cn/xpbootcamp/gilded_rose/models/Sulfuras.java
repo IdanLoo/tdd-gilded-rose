@@ -1,13 +1,11 @@
 package cn.xpbootcamp.gilded_rose.models;
 
 public class Sulfuras extends Product {
-    Sulfuras(int sellIn, int quality) {
-        super(sellIn, quality);
+    public Sulfuras(int quality) {
+        super(Integer.MAX_VALUE, quality);
     }
 
     @Override
-    public void passOnyDay() {
-        super.passOnyDay();
-    }
+    public void passOnyDay() { }
 }
 
